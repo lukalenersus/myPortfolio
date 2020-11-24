@@ -10,7 +10,7 @@ const greeting = {
   username: "Eugene Lukale",
   title: "Mobile App Developer",
   subTitle: emoji("A passionate, experienced and dedicated Mobile App Developer  🚀  with impressive expertise in native languages. Develops, implements mobile applications and delivers products on time."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  //resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
 // Your Social Media Link
