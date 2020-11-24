@@ -7,9 +7,9 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
+  username: "Eugene Lukale",
+  title: "Mobile App Developer",
+  subTitle: emoji("A passionate, experienced and dedicated Mobile App Developer  🚀  with impressive expertise in native languages. Develops, implements mobile applications and delivers products on time."),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
@@ -17,50 +17,38 @@ const greeting = {
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  github: "https://github.com/lukalenersus",
+  //linkedin: "https://www.linkedin.com/in/saadpasta/",
+  gmail: "lukaleugene.le@gmail.com",
+  twitter:"https://www.twitter.com/nealCodeStrong"
+  //gitlab: "https://gitlab.com/saadpasta",
+  //facebook: "https://www.facebook.com/saad.pasta7",
+  //medium: "https://medium.com/@saadpasta",
+  //tackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
   // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "MOBILE APP DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop native mobile applications and frameworks using Kotlin and Flutter"),
+    emoji("⚡ Implement robust app architectures and user interfaces"),
+    emoji("⚡ Integration of third party services such as Firebase/ Mongodb /M-pesa /Restful API"),
+    emoji("⚡ Use code versioning tools to manage and implement changes to programs"),
+    
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+  
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "android",
+      fontAwesomeClassname: "fab fa-android"
     },
     {
       skillName: "nodejs",
@@ -73,10 +61,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "aws",
@@ -100,7 +84,7 @@ https://fontawesome.com/icons?d=gallery */
 // Your education background
 
 const educationInfo = {
-  viewEducation: true, // Set it to true to see education section
+  viewEducation: false, // Set it to true to see education section
   schools: [
     {
       schoolName: "Harvard University",
@@ -132,16 +116,32 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      Stack: "Kotlin",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Firebase",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Rest Api",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Node",
+      progressPercentage: "55%"
+    },
+    {
+      Stack: "Flutter",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Dart",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "python",
+      progressPercentage: "55%"
     }
   ]
 };
@@ -154,29 +154,16 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      company: "Novatta Africa",
+      companylogo: require("./assets/images/Novatta.jpg"),
+      date: "Nov 2019 – Present",
+      desc: "Develop a peer to peer betting android application.",
+      //descBullets: [
+        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      //]
     },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+   
   ]
 };
 
@@ -186,24 +173,22 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
+  showGithubProfile :"false" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME PROJECTS AND COMPANIES THAT I HAVE WORKED WITH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/bmblogo.png"),
+      link: "https://betmeback.win" 
+    
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
-    }
+   
   ]
 };
 
@@ -224,24 +209,7 @@ const achievementSection = {
         { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
         { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
       ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-      ]
-    }
-  ]
+    }]
 };
 
 // Blogs Section
@@ -253,15 +221,11 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://developers.decoded.africa/android-consuming-restful-api-with-kotlin/",
+      title: "Consuming Restful API",
+      description: "A quick guide on how to connect your android app with the restful api."
     },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+  
   ]
 };
 
@@ -294,8 +258,8 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+254733928420",
+  email_address: "lukaleugene.le@gmail.com"
 };
 
 //Twitter Section

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Podcast.css";
-import { podcastSection } from "../../portfolio";
+//import { podcastSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -10,7 +10,7 @@ export default function Podcast() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main">
         <div className="podcast-header">
-          <h1 className="podcast-header-title">{podcastSection.title}</h1>
+          
           <p
             className={
               isDark
@@ -18,23 +18,10 @@ export default function Podcast() {
                 : "subTitle podcast-header-subtitle"
             }
           >
-            {podcastSection.subtitle}
+            
           </p>
         </div>
-        <div className="podcast-main-div">
-          {podcastSection.podcast.map((podcastLink) => {
-            return (
-              <div>
-                <iframe
-                  className="podcast"
-                  src={podcastLink}
-                  frameborder="0"
-                  scrolling="no"
-                ></iframe>
-              </div>
-            );
-          })}
-        </div>
+       
       </div>
     </Fade>
   );
