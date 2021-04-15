@@ -1,47 +1,55 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6f91becbfa6c349f835f2fc79c367c6",
+    "revision": "11b9607069f02b7e1c94631386664a7f",
     "url": "/myPortfolio/index.html"
   },
   {
-    "revision": "fa2291bd567ef7cdbe4e",
+    "revision": "07f7d2c3c0e54ae0b120",
     "url": "/myPortfolio/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "b8d6c22ffd20f7eb3034",
+    "revision": "c03459734dbcf17bfa76",
     "url": "/myPortfolio/static/css/4.a922a401.chunk.css"
   },
   {
-    "revision": "5d4994eda867200cc2e4",
+    "revision": "51d5f61242668776005a",
     "url": "/myPortfolio/static/css/main.7dea402e.chunk.css"
   },
   {
-    "revision": "16b436d7e098fe6ec502",
-    "url": "/myPortfolio/static/js/2.80f01d02.chunk.js"
+    "revision": "f4eba77f109ae92996e9",
+    "url": "/myPortfolio/static/js/2.c34a5212.chunk.js"
   },
   {
     "revision": "7e0fd0c09333f2e525fa479f52af448a",
-    "url": "/myPortfolio/static/js/2.80f01d02.chunk.js.LICENSE.txt"
+    "url": "/myPortfolio/static/js/2.c34a5212.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fa2291bd567ef7cdbe4e",
-    "url": "/myPortfolio/static/js/3.976e042e.chunk.js"
+    "revision": "07f7d2c3c0e54ae0b120",
+    "url": "/myPortfolio/static/js/3.472ee98b.chunk.js"
   },
   {
-    "revision": "b8d6c22ffd20f7eb3034",
-    "url": "/myPortfolio/static/js/4.ffca8078.chunk.js"
+    "revision": "c03459734dbcf17bfa76",
+    "url": "/myPortfolio/static/js/4.6343aa48.chunk.js"
   },
   {
-    "revision": "5d4994eda867200cc2e4",
-    "url": "/myPortfolio/static/js/main.425cde9e.chunk.js"
+    "revision": "51d5f61242668776005a",
+    "url": "/myPortfolio/static/js/main.4688214a.chunk.js"
   },
   {
-    "revision": "d3981e790dac7bec8cc4",
-    "url": "/myPortfolio/static/js/runtime-main.94b343c9.js"
+    "revision": "f95a0ca223dc30e3c815",
+    "url": "/myPortfolio/static/js/runtime-main.56e114fd.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/myPortfolio/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "f160d2985307958bfb9051790dc8260f",
+    "url": "/myPortfolio/static/media/Bmblogo.f160d298.png"
+  },
+  {
+    "revision": "65736f8f528d26210a7b6c5e8dab2526",
+    "url": "/myPortfolio/static/media/Bmblogo1.65736f8f.png"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
@@ -54,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
     "url": "/myPortfolio/static/media/airbnbLogo.c59720d6.png"
+  },
+  {
+    "revision": "0b129665554cd9cd9ccd7842d23c3aaf",
+    "url": "/myPortfolio/static/media/bmb.0b129665.png"
   },
   {
     "revision": "6457e375a7d37be464352b3ce323f44a",
@@ -80,6 +92,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPortfolio/static/media/facebookLogo.8ddf76a1.png"
   },
   {
+    "revision": "6fabf555c4d27bcb0513427a046d713c",
+    "url": "/myPortfolio/static/media/generated.6fabf555.png"
+  },
+  {
     "revision": "c24ba79111a90758a3a472a906ab2901",
     "url": "/myPortfolio/static/media/googleAssistant.c24ba791.svg"
   },
@@ -90,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "83a05b10639d238bd8c5bbab279ab911",
     "url": "/myPortfolio/static/media/harvardLogo.83a05b10.png"
+  },
+  {
+    "revision": "54c2a398b300937d596005a82bae4a8e",
+    "url": "/myPortfolio/static/media/icons2.54c2a398.png"
   },
   {
     "revision": "b05ae5b575a7e1125610944dc152c35f",
