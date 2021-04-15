@@ -8,8 +8,8 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Eugene Lukale",
-  title: "Mobile App Developer",
-  subTitle: emoji("A passionate, experienced and dedicated Mobile App Developer  🚀  with impressive expertise in native languages. Develops, implements mobile applications and delivers products on time."),
+  title: "Software Developer",
+  subTitle: emoji("A passionate, experienced and dedicated Software Developer  🚀  with impressive expertise in building Mobile and Web applications using Kotlin, Flutter, Dart Nodejs , Python and Javascript. Develops, implements software and delivers products on time."),
   //resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
@@ -32,12 +32,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "MOBILE APP DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SOFTWARE DEVELOPER WHO EXPLORES EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop native mobile applications and frameworks using Kotlin and Flutter"),
+    emoji("⚡ Develop native mobile applications and frameworks using Kotlin ,Swift and Flutter"),
     emoji("⚡ Implement robust app architectures and user interfaces"),
     emoji("⚡ Integration of third party services such as Firebase/ Mongodb /M-pesa /Restful API"),
-    emoji("⚡ Use code versioning tools to manage and implement changes to programs"),
+    emoji("⚡ Use code versioning tools such as bitbucket, github and gitlab to manage and implement changes to programs"),
     
   ],
 
@@ -59,7 +59,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-swift"
     },
     {
-      skillName: "npm",
+      skillName: "node",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
@@ -77,36 +77,40 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
   ]
 };
 
 // Your education background
 
 const educationInfo = {
-  viewEducation: false, // Set it to true to see education section
+  viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Jomo Kenyatta University",
+      logo: require("./assets/images/jkuat.png"),
+      subHeader: "Bachelors of Science in Mathematics and Computer Science",
+      duration: "March 2016 - March 2021",
+     // desc: "Participated in the research of XXX and published 3 papers.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ]
-    }
+    // {
+    //   schoolName: "Stanford University",
+    //   logo: require("./assets/images/stanfordLogo.png"),
+    //   subHeader: "Bachelor of Science in Computer Science",
+    //   duration: "September 2013 - April 2017",
+    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //   descBullets: [
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   ]
+    // }
   ]
 }
 
@@ -142,7 +146,11 @@ const techStack = {
     {
       Stack: "python",
       progressPercentage: "55%"
-    }
+    },
+    {
+      Stack: "JavaScript",
+      progressPercentage: "40%"
+    },
   ]
 };
 
@@ -153,11 +161,23 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "Software Developer",
       company: "Novatta Africa",
-      companylogo: require("./assets/images/Novatta.jpg"),
-      date: "Nov 2019 – Present",
-      desc: "Develop a peer to peer betting android application.",
+      companylogo: require("./assets/images/bmblogo.png"),
+      date: "Nov 2019 – Dec 2020",
+      desc: "Developed a peer to peer betting android application.",
+      //descBullets: [
+        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      //]
+    },
+
+    {
+      role: "Software Developer",
+      company: "Nela",
+      companylogo: require("./assets/images/icons2.png"),
+       date: "Jan 2021 – Present",
+      desc: "Developing local event android application.",
       //descBullets: [
         //"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         //"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -181,14 +201,19 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME PROJECTS AND COMPANIES THAT I HAVE WORKED WITH",
+  subtitle: "MY PROJECTS AND COMPANIES THAT I HAVE WORKED WITH",
   projects: [
+   
     {
-      image: require("./assets/images/bmblogo.png"),
-      link: "https://betmeback.win" 
+      image: require("./assets/images/generated.png"),
+      link: "https://play.google.com/store/apps/details?id=com.lukale.buddie" ,
     
     },
-   
+    {
+      image: require("./assets/images/bmb.png"),
+      link: "https://play.google.com/store/apps/details?id=com.lukale.buddie" 
+    }
+
   ]
 };
 
@@ -221,7 +246,7 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://developers.decoded.africa/android-consuming-restful-api-with-kotlin/",
+      url: "https://developers.decoded.africa/index.php/2020/09/10/android-consuming-restful-api-with-kotlin/",
       title: "Consuming Restful API",
       description: "A quick guide on how to connect your android app with the restful api."
     },
@@ -256,9 +281,8 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji(" ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+254733928420",
   email_address: "lukaleugene.le@gmail.com"
 };
 
